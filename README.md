@@ -1,6 +1,6 @@
 # EmployeeTracker Android Application
 
-This project consists of an Android application built using Java/Kotlin (with React Native or Expo if applicable) and a Node.js Express server. The Android application allows employees to track their work hours, and the server manages user authentication, data storage, and API services.
+This project consists of an Android application built using Java and a Node.js Express server. The Android application allows employees to track their work hours, and the server manages user authentication, data storage, and API services.
 
 ## Prerequisites
 
