@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "527819843135",
+    "project_id": "timetracker-448213",
+    "storage_bucket": "timetracker-448213.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527819843135:android:de511dc8d479bebd1cfa8a",
+        "android_client_info": {
+          "package_name": "com.ryvk.employeetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527819843135-e79lci799fc4fdkavm3gcf2366qs4upt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryvk.employeetracker",
+            "certificate_hash": "bd9df3aaebb318c1f4c8bda150323f4147e81f92"
+          }
+        },
+        {
+          "client_id": "527819843135-tjho48k8g04nq22jgls8lhe3h2qg6f04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7pZBT1-tk0flREnXuDyssS3GCnrH3psU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527819843135-tjho48k8g04nq22jgls8lhe3h2qg6f04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

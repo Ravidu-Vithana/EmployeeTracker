@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EmployeeTracker</string>
+    <string name="web_server_client_id">527819843135-tjho48k8g04nq22jgls8lhe3h2qg6f04.apps.googleusercontent.com</string>
+    <string name="main_welcome_message">Welcome to Employee Tracker.</string>
+    <string name="main_btn1_text1">Sign in</string>
+    <string name="main_btn1_text2">Go to Home</string>
+    <string name="google_sign_in_text1">Sign in to your Account</string>
+    <string name="google_sign_in_text2">Sign in options:</string>
+    <string name="google_sign_in_btn1">Google Account</string>
+    <string name="home_text1">__________________</string>
+    <string name="home_text2">__:__:__</string>
+    <string name="home_btn1_text1">Clock In</string>
+    <string name="home_btn1_text2">Clock Out</string>
+    <string name="home_btn1_text3">Finished</string>
+    <string name="home_btn2">Logout</string>
+</resources>
