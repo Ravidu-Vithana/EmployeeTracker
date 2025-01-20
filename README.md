@@ -28,18 +28,19 @@ Create a .env file in the server directory and add the following variables:
 PORT=5000
 MONGO_URI=your-mongodb-connection-string
 ```
+
 ### 3. Start the Server
 Run the server with the following command:
 ```bash
 npm start
 ```
-After that, check for the IPV4 address of your local machine that runs the server and place it in the server_ip_port constant in MainActivity.java. The default port is set to 5000.
+After that, check for the IPV4 address of your local machine that runs the server and place it in the ``` server_ip_port ``` constant in MainActivity.java. The default port is set to 5000.
 
 ### 4. Android Application Setup
 Open EmployeeTracker Android project directory in android studio. Run the project on the paired device or emulator.
 
 ### 5. Google and Firebase Setup
-Create a project in google cloud console and add that project from firebase console. Add an android app to the firebase console and follow to steps to obtain the google-services.json file. Add that file to the src folder from the project view of android studio. Copy the Web Application type client id now available in Google Console Credentials page and add it to the web_server_client_id String in the strings.xml resource file
+Create a project in [Google Cloud Console](https://console.cloud.google.com) and configure the [OAuth Consent Screen](https://console.cloud.google.com/apis/credentials/consent). Then go to create a new [Firebase project](https://console.firebase.google.com/) and select the Google Console project. Then add an android app to the firebase console and follow to steps to obtain the google-services.json file. Add that file to the src folder ``` (EmployeeTracker\app\src\google-services.json) ``` from the Project view of android studio. Copy the Web Application type client id now available in [Google Console Credentials page](https://console.cloud.google.com/apis/credentials) and add it to the ``` web_server_client_id ``` String in the ``` strings.xml ``` resource file
 
 ### Note
 Ensure that the server is running before interacting with the Android app. This app communicates with the Node.js server to fetch data from the MongoDB database.
