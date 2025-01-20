@@ -5,7 +5,7 @@ This project consists of a Simple Android application built using Java and a Nod
 ## Prerequisites
 
 - Node.js (LTS version recommended)
-- MongoDB (use MongoDB Atlas or a local instance)
+- MongoDB (use of MongoDB Atlas is recommended)
 - Android Studio (for Android app development)
 - npm (Node Package Manager)
 
@@ -18,7 +18,7 @@ Clone this repository to your local machine:
 git clone https://github.com/your-username/EmployeeTracker.git
 cd EmployeeTracker
 ```
-### 2. Server Setup
+### 2. Server and Environment Setup
 Install the server dependencies using npm in root directory:
 ```bash
 npm install
