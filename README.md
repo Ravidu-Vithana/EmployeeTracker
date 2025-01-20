@@ -23,7 +23,7 @@ Install the server dependencies using npm in root directory:
 ```bash
 npm install
 ```
-Create a .env file in the server directory and add the following variables:
+Create a .env file in the root directory and add the following variables:
 ```bash
 PORT=5000
 MONGO_URI=your-mongodb-connection-string
