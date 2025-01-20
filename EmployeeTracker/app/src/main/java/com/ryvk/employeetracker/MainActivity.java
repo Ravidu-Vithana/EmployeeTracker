@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-    public static final String server_ip_port = "192.168.8.162:5000";
+    public static final String server_ip_port = "__IPV4_address__:5000";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
