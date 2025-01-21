@@ -1,11 +1,13 @@
 import express from 'express';
 import User from '../model/userModel.js';
+import authorizeToken from '../middleware/authMiddleware.js';
 
 const Router = express.Router();
 
-Router.post('/auth', async (req, res) => {
+Router.post('/auth', authorizeToken ,  async (req, res) => {
 
-    const userInDB = await User.findOne({email:req.body.email});
+    const userInDB = req.user;
+    console.log("user in db: "+userInDB);
     
     if(userInDB == null){
         const user = new User(req.body);
